@@ -5,7 +5,7 @@ Handles document retrieval and LLM-based response generation.
 
 import logging
 from typing import List, Dict, Any, Optional, Union
-from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_openai import OpenAIEmbeddings
